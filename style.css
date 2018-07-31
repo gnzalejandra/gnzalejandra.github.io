@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+div {
+  /*border: 2px solid blue;*/
+  font-family: 'Fjalla One', sans-serif;
+}
+.header {
+    background-image: url("images/jump.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px 0px 20px 0px;
+}
+.headerparent {
+    display: flex;
+    flex-direction: row;
+ /*border: 3px solid pink;*/
+    }
+.childrock {
+    flex: 1;
+    padding-left: 50px;
+    color: black;
+    font-size: 15px;
+    padding-top: 2px;
+    }
+}
+.childnav {
+    flex: 1;
+    font-size: 10px;
+}
+.childnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+li {
+    /*float: left;*/
+    padding-top: 18px;
+}
+li a {
+    display: block;
+    color: #9c6358;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.contenttop {
+    padding: 460px 20px 460px 300px;
+    font-size: 20px
+}
+.contentparent {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 30px 0px;
+    background-size: cover;
+}
+.mission {
+    padding: 50px 100px 100px 50px;
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.5; 
+}
+.mission p {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: justify;
+}
+.missionpic {
+    flex: 1;
+    background-image: url(images/desk.jpg);
+    background-size: cover;
+    margin-right: 2%;
+}
+.passionimg {
+    background-image: url(images/passion.jpg);
+    background-size: cover;
+    padding-bottom: 700px;
+    margin-bottom: 3%;
+}
+.parentlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.childnetworking {
+    flex: 1;
+    background-color: #b0c8d3;
+    text-align: center;
+    padding-top: 40px;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 1%;
+    padding-bottom: 60px;
+}
+.childinterviewing {
+    flex: 1;
+    background-color: #9c6358;
+    text-align: center;
+    padding-top: 40px;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+.topnav {
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    flex: 1;
+    margin-left: 6%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navlinks {
+    flex: 1;
+    padding-left: 40%;
+    font-size: 12px;
+    padding-top: 0px;
+}
+.titlenet {
+    padding-left: 20px;
+}
+.navlinksnet {
+    padding-top: 0px;
+}
+.image {
+ /*border: 3px solid orange;*/
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 600px;
+}
+.megacontent {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.networkingcontent h1, h3 {
+    text-align: center;
+}
+.networkingcontent h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.5;
+}
+.networkingcontent p {
+    line-height: 1.5;
+    font-family:'Libre Franklin', sans-serif;
+}
+.imagesnetparent {
+    display: flex;
+    flex-direction: row;
+}
+.coffeedatechild {
+    background-image: url(images/coffeedate.jpg);
+    flex: 1;
+    padding-bottom: 300px;
+    background-size: cover;
+}
+.shakinghandschild {
+    background-image: url(images/shakinghands.jpg);
+    flex: 1;
+    padding-bottom: 300px;
+    background-size: cover;
+    margin-left: 2%;
+}
+.networkingcontentbottom {
+    margin-bottom: 3%;
+    line-height: 1.5;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.interviewimg {
+    background-image: url(images/hello.jpg);
+    background-size: cover;
+    padding-bottom: 650px;
+}
+.interviewcontent p, li{
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.5;
+}
+.interviewcontent h1, h3 {
+    text-align: center;
+}
+.interviewsimgparent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.imgresearch {
+    background-image: url(images/research.jpg);
+    flex: 3;
+    background-size: cover;
+    padding-bottom: 300px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.imgculture {
+    background-image: url(images/culture.jpg);
+    flex: 3;
+    background-size: cover;
+    margin-right: 1%;
+}
+.imginterview {
+    background-image: url(images/interview.jpg);
+    flex: 3;
+    background-size: cover;
+    margin-right: 1%;
+}
+.space {
+    margin-top: 16px;
+    clear: both;
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    margin-top: 2%;
+    margin-right: 5px;
+}
